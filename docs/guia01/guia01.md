@@ -1,4 +1,4 @@
-# INTRODUCCIÓN
+# GUIA 01
 
 :::{list-table}
 :header-rows: 1

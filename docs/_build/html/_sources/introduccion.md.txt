@@ -1,16 +1,10 @@
-# Lógica computacional grado octavo
+# INTRODUCCIÓN
 
-Bienvenido a la asignatura **lógica computacional** de grado octavo.
+Aprender lógica computacional es como aprender el idioma secreto de las computadoras. No se trata solo de escribir códigos complicados, ¡sino de aprender a pensar de manera clara y organizada! Imaginen que su cerebro es una supercomputadora y la lógica computacional es el software que les permite:
 
-En este portal encuentra las guías y recursos académicos necesarios para aprender sobre las siguientes temáticas:
+- **Resolver problemas como detectives**: La lógica les enseña a analizar situaciones identificar patrones y encontrar soluciones paso a paso.
+- **Crear cosas increíbles**: Desde videojuegos y animaciones hasta aplicaciones y robots, la lógica es la base para construir cualquier cosa que se les ocurra.
+- **Entender el mundo digital**: En un mundo cada vez más tecnológico, comprender la lógica les da una ventaja para entender cómo funciona la tecnología que los rodea y cómo pueden usarla para crear y transformar.
+- **Desarrollar habilidades valiosas**: La lógica computacional mejora su capacidad de razonamiento, su creatividad, su capacidad de concentración y su habilidad para trabajar en equipo. ¡Son habilidades que les servirán en cualquier carrera que elijan!
 
-- Hardware y Software
-- Sistemas computacionales e informática
-- Concepto de lógica computacional
-- Datos e información
-- Jerarquía de datos
-- Variables y sus tipos
-- Operaciones con variables
-- Números binarios y circuitos lógicos
-- Álgebra de Boole
-- Compuertas lógicas
+> *"En resumen, la lógica computacional es una herramienta que permite desarrollar las bases para el entendimiento de la algoritmia y la programación"*.
