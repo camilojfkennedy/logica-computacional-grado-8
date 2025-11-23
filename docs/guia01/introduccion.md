@@ -5,7 +5,7 @@
 * - Institución Educativa John F. Kennedy
   - GUIA 01
 * - ![escudo](../escudo.png){width=300px}
-  - **DOCENTE** Julian Camilo Fonseca Romero <br> **GRADO** OCTAVO <br> **PERIODO** 1/4 <br> **SEMANAS** 1 hora / semana <br> **TIEMPO DE TRABAJO** 10 horas 
+  - **DOCENTE** Julian Camilo Fonseca Romero <br/> **GRADO** OCTAVO <br/> **PERIODO** 1/4 <br/> **SEMANAS** 1 hora / semana <br/> **TIEMPO DE TRABAJO** 10 horas 
 :::
 
 ---
