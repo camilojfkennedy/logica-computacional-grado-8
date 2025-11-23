@@ -1,7 +1,0 @@
-# ACTIVIDAD 09: Álgebra de Boole
-
-## TAREA 01: George Boole
-
-## TAREA 02: Álgebra de Boole
-
-## TAREA 03: Evaluación

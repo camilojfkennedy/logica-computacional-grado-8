@@ -1,58 +1,58 @@
 :::{toctree}
 :hidden:
-:maxdepth: 3
+:maxdepth: 2
 :caption: CONTENIDO
 
-curriculum.md
 :::
 
 :::{toctree}
 :hidden:
-:maxdepth: 3
+:maxdepth: 2
 :caption: PERIODO 01
 
-periodo01/actividad01.md
-periodo01/actividad02.md
-periodo01/actividad03.md
-periodo01/refuerzo01.md
+periodo01/A01.md
+periodo01/A02.md
+periodo01/A03.md
+periodo01/R01.md
 :::
 
 :::{toctree}
 :hidden:
-:maxdepth: 3
+:maxdepth: 2
 :caption: PERIODO 02
 
-periodo02/actividad04.md
-periodo02/actividad05.md
-periodo02/refuerzo02.md
+periodo02/A04.md
+periodo02/A05.md
+periodo02/R02.md
 :::
 
 :::{toctree}
 :hidden:
-:maxdepth: 3
+:maxdepth: 2
 :caption: PERIODO 03
 
-periodo03/actividad06.md
-periodo03/actividad07.md
-periodo03/refuerzo03.md
+periodo03/A06.md
+periodo03/A07.md
+periodo03/R03.md
 :::
 
 :::{toctree}
 :hidden:
-:maxdepth: 3
+:maxdepth: 2
 :caption: PERIODO 04
 
-periodo04/actividad08.md
-periodo04/actividad09.md
-periodo04/actividad10.md
-periodo04/refuerzo04.md
+periodo04/A08.md
+periodo04/A09.md
+periodo04/A10.md
+periodo04/R04.md
 :::
 
 :::{toctree}
 :hidden:
-:maxdepth: 3
+:maxdepth: 2
 :caption: RECURSOS
 
+recursos/curriculum.md
 recursos/referencias.md
 :::
 
