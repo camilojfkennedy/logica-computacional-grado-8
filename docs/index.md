@@ -28,7 +28,6 @@ Aprender **lógica computacional** es como aprender el idioma secreto de las com
 - **Desarrollar habilidades valiosas**: La lógica computacional mejora su capacidad de razonamiento, su creatividad, su capacidad de concentración y su habilidad para trabajar en equipo. ¡Son habilidades que les servirán en cualquier carrera que elijan!
 
 > *"En resumen, la lógica computacional es una herramienta que permite desarrollar las bases para el entendimiento de la algoritmia y la programación"*.
-:::
 
 :::{toctree}
 :hidden:
