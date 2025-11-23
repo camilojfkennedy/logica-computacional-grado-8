@@ -1,3 +1,61 @@
+:::{toctree}
+:hidden:
+:maxdepth: 3
+:caption: CONTENIDO
+
+curriculum.md
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 3
+:caption: PERIODO 01
+
+periodo01/actividad01.md
+periodo01/actividad02.md
+periodo01/actividad03.md
+periodo01/refuerzo01.md
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 3
+:caption: PERIODO 02
+
+periodo02/actividad04.md
+periodo02/actividad05.md
+periodo02/refuerzo02.md
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 3
+:caption: PERIODO 03
+
+periodo03/actividad06.md
+periodo03/actividad07.md
+periodo03/refuerzo03.md
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 3
+:caption: PERIODO 04
+
+periodo04/actividad08.md
+periodo04/actividad09.md
+periodo04/actividad10.md
+periodo04/refuerzo04.md
+:::
+
+:::{toctree}
+:hidden:
+:maxdepth: 3
+:caption: RECURSOS
+
+recursos/referencias.md
+:::
+
 # Lógica computacional grado octavo
 
 ## Introducción
@@ -28,61 +86,3 @@ Aprender **lógica computacional** es como aprender el idioma secreto de las com
 - **Desarrollar habilidades valiosas**: La lógica computacional mejora su capacidad de razonamiento, su creatividad, su capacidad de concentración y su habilidad para trabajar en equipo. ¡Son habilidades que les servirán en cualquier carrera que elijan!
 
 > *"En resumen, la lógica computacional es una herramienta que permite desarrollar las bases para el entendimiento de la algoritmia y la programación"*.
-
-:::{toctree}
-:hidden:
-:maxdepth: 2
-:caption: CONTENIDO
-
-curriculum.md
-:::
-
-:::{toctree}
-:hidden:
-:maxdepth: 2
-:caption: PERIODO 01
-
-periodo01/actividad01.md
-periodo01/actividad02.md
-periodo01/actividad03.md
-periodo01/refuerzo01.md
-:::
-
-:::{toctree}
-:hidden:
-:maxdepth: 2
-:caption: PERIODO 02
-
-periodo02/actividad04.md
-periodo02/actividad05.md
-periodo02/refuerzo02.md
-:::
-
-:::{toctree}
-:hidden:
-:maxdepth: 2
-:caption: PERIODO 03
-
-periodo03/actividad06.md
-periodo03/actividad07.md
-periodo03/refuerzo03.md
-:::
-
-:::{toctree}
-:hidden:
-:maxdepth: 2
-:caption: PERIODO 04
-
-periodo04/actividad08.md
-periodo04/actividad09.md
-periodo04/actividad10.md
-periodo04/refuerzo04.md
-:::
-
-:::{toctree}
-:hidden:
-:maxdepth: 2
-:caption: RECURSOS
-
-recursos/referencias.md
-:::
