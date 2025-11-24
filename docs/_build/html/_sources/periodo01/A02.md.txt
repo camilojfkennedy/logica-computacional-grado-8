@@ -1,7 +1,8 @@
 # A02: Informática
 
-En esta actividad los estudiantes aprenden conceptos introductorios relacionados con la lógica computacional. Desarrolle las siguientes tareas:
+En esta actividad, los estudiantes aprenden conceptos introductorios de la lógica computacional. Desarrolle las siguientes tareas:
 
+---
 ## TAREA 01: Sistema computacional
 
 1. Lea el siguiente texto:
@@ -26,7 +27,6 @@ Computadora
     - EJEMPLO: Un *portátil* es un ejemplo de **sistema computacional** porque su *hardware* y *software* permite registrar, almacenar y mostrar información para un usuario”.
 
 ---
-
 ## TAREA 02: Informática
 
 1. Lea el siguiente texto:
@@ -61,7 +61,6 @@ Los bancos deben garantizar integridad y disponibilidad
 4. En su cuaderno, CREE dos casos más en los que la integridad y la disponibilidad de la información sean vulneradas.
 
 ---
-
 ## TAREA 03: Evaluación
 
 :::{admonition} Presentación del cuaderno y sustentación

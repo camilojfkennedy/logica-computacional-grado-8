@@ -1,7 +1,8 @@
 # A03: Lógica computacional
 
-En esta actividad los estudiantes con los concepto vistos hasta el momento, ahora aprenden el concepto de lógica computacional. Desarrolle las siguientes tareas:
+En esta actividad, los estudiantes analizan el concepto de lógica computacional. Desarrolle las siguientes tareas:
 
+---
 ## TAREA 01: Razonamiento y lógica
 
 1. Lea los siguientes textos:
@@ -40,7 +41,6 @@ Después de aplicar **lógica**, este resultado puede ser verdadero o falso. Por
 > *"Una persona sin mascotas escuchó ruidos extraños en su casa en horas de la noche. Habían varios residuos de comida en el piso. El computador estaba desconectado. Se descarta la presencia de un ladrón"*
 
 ---
-
 ## TAREA 02: Lógica computacional
 
 1. Lea el siguiente texto:
@@ -66,7 +66,6 @@ La **lógica computacional** tiene las siguientes aplicaciones:
     - “*Diseñar **algoritmos** permite hacer más con menos*”. ____
 
 ---
-
 ## TAREA 03: Evaluación
 
 :::{admonition} Presentación del cuaderno y sustentación
