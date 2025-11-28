@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PLAN DE REFUERZO 03 &mdash; documentación de Lógica computacional grado 8 - </title>
+  <title>PLAN DE REFUERZO 03 &mdash; documentación de Lógica computacional 8 - </title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -35,7 +35,7 @@
           
           
           <a href="../index.html" class="icon icon-home">
-            Lógica computacional grado 8
+            Lógica computacional 8
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -47,7 +47,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">CONTENIDO</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../intro.html">INTRODUCCIÓN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introducción</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">PERIODO 01</span></p>
 <ul>
@@ -66,7 +66,18 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="A06.html">A06: Variables y sus tipos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="A07.html">A07: Operaciones</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">PLAN DE REFUERZO 03</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">PLAN DE REFUERZO 03</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#variables">Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tipos-de-variables">Tipos de variables</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#entero">ENTERO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#decimal">DECIMAL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#caracter">CARACTER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#boolean">BOOLEAN</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tabla-ascii">TABLA ASCII</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">PERIODO 04</span></p>
 <ul>
@@ -78,6 +89,9 @@
 <p class="caption" role="heading"><span class="caption-text">RECURSOS</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/T01.html">T01: Jerarquía de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T02.html">T02: Números binarios y circuitos lógicos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T03.html">T03: Álgebra de Boole</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T04.html">T04: Compuertas lógicas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/curriculum.html">Currículum</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/referencias.html">REFERENCIAS</a></li>
 </ul>
@@ -88,7 +102,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Lógica computacional grado 8</a>
+          <a href="../index.html">Lógica computacional 8</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -108,6 +122,74 @@
              
   <section class="tex2jax_ignore mathjax_ignore" id="plan-de-refuerzo-03">
 <h1>PLAN DE REFUERZO 03<a class="headerlink" href="#plan-de-refuerzo-03" title="Link to this heading"></a></h1>
+<div class="danger admonition">
+<p class="admonition-title">EVALUACIÓN: Plan de refuerzo (10 minutos)</p>
+<p>Estudiar los temas a continuación. Se realiza examen de 5 preguntas. Si el estudiante no asiste en la fecha programada, este será evaluado la próxima vez que asista a clase.</p>
+</div>
+<hr class="docutils" />
+<section id="variables">
+<h2>Variables<a class="headerlink" href="#variables" title="Link to this heading"></a></h2>
+<blockquote>
+<div><p><em>“Una variable es un campo de memoria al que se le puede cambiar su contenido cuantas veces sea necesario»</em>.</p>
+</div></blockquote>
+<p>Un campo de memoria es un espacio pequeño de la <strong>memoria RAM</strong> en donde se puede guardar un dato.</p>
+<p>Una variable se compone de:</p>
+<ul class="simple">
+<li><p>El nombre de la variable.</p></li>
+<li><p>Un signo igual (=) (llamado operador de asignación).</p></li>
+<li><p>Un valor a almacenar.</p></li>
+</ul>
+<p>Una variable se escribe así:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="n">spam</span> <span class="o">=</span> <span class="mi">42</span>
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="tipos-de-variables">
+<h2>Tipos de variables<a class="headerlink" href="#tipos-de-variables" title="Link to this heading"></a></h2>
+<section id="entero">
+<h3>ENTERO<a class="headerlink" href="#entero" title="Link to this heading"></a></h3>
+<p>Un dato de tipo entero es un número que no tiene punto decimal, por lo tanto en sus operaciones jamás va a generar decimales.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="n">A</span> <span class="o">=</span> <span class="mi">12</span><span class="p">,</span> <span class="n">B</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="linenos">2</span><span class="n">C</span> <span class="o">=</span> <span class="n">A</span> <span class="o">+</span> <span class="n">B</span>
+<span class="linenos">3</span><span class="n">C</span> <span class="o">=</span> <span class="mi">112</span>
+</pre></div>
+</div>
+</section>
+<section id="decimal">
+<h3>DECIMAL<a class="headerlink" href="#decimal" title="Link to this heading"></a></h3>
+<p>Un dato de tipo decimal es un número que tiene punto decimal. Por tanto sus operaciones pueden generar decimales.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="n">A</span> <span class="o">=</span> <span class="mf">0.25</span><span class="p">,</span> <span class="n">B</span> <span class="o">=</span> <span class="mf">0.50</span>
+<span class="linenos">2</span><span class="n">C</span> <span class="o">=</span> <span class="n">A</span> <span class="o">+</span> <span class="n">B</span>
+<span class="linenos">3</span><span class="n">C</span> <span class="o">=</span> <span class="mf">0.75</span>
+</pre></div>
+</div>
+</section>
+<section id="caracter">
+<h3>CARACTER<a class="headerlink" href="#caracter" title="Link to this heading"></a></h3>
+<p>Un dato de tipo carácter es cualquier código presente en la tabla ASCII (American Standard Code for Interchange Information).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="n">a</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">@</span><span class="p">,</span> <span class="o">*</span> 
+</pre></div>
+</div>
+</section>
+<section id="boolean">
+<h3>BOOLEAN<a class="headerlink" href="#boolean" title="Link to this heading"></a></h3>
+<p>Un dato de tipo booleano, a diferencia de los demás tipos de datos solo puede tener dos posibles valores: TRUE o FALSE. Las variables de tipo booleano se usan para establecer estados.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="n">MAYOR_DE_EDAD</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="linenos">2</span><span class="n">RECIPIENTE_VACIO</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="linenos">3</span><span class="n">DIA_LLOVIENDO</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="linenos">4</span><span class="n">BOMBILLO_PRENDIDO</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="linenos">5</span><span class="n">APROBACIÓN_EXAMEN</span> <span class="o">=</span> <span class="kc">True</span>
+</pre></div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="tabla-ascii">
+<h2>TABLA ASCII<a class="headerlink" href="#tabla-ascii" title="Link to this heading"></a></h2>
+<p>El código ASCII contiene equivalencias internas de cada carácter en sistema decimal. La tabla ASCII tiene asignación numérica de caracteres y esta asignación numérica va desde 0 hasta 255. Esta asignación diferencia entre mayúscula y minúsculas. Por ejemplo si el número 65 es asignado para la letra A mayúscula, entonces el número 97 es el asignado para la letra a minúscula.</p>
+<p><img alt="ascii" class="align-center" src="../_images/image032.png" /></p>
+</section>
 </section>
 
 

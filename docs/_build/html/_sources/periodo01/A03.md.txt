@@ -70,7 +70,7 @@ La **lógica computacional** tiene las siguientes aplicaciones:
 
 :::{admonition} Presentación del cuaderno y sustentación
 :class: danger
-En esta actividad el estudiante es evaluado con los temas vistos en la presente actividad.
+En esta tarea, el estudiante es evaluado con los temas vistos en la presente actividad.
 - Los estudiantes presentan el cuaderno con el desarrollo de todas las tareas.
 - El docente realiza unas preguntas para comprobar que los estudiantes hayan entendido los temas.
 :::

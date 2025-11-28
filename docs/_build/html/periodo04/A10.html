@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A10: Compuertas lógicas &mdash; documentación de Lógica computacional grado 8 - </title>
+  <title>A10: Compuertas lógicas &mdash; documentación de Lógica computacional 8 - </title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -19,6 +19,8 @@
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../_static/translations.js?v=f85f4cfb"></script>
       <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
@@ -35,7 +37,7 @@
           
           
           <a href="../index.html" class="icon icon-home">
-            Lógica computacional grado 8
+            Lógica computacional 8
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -47,7 +49,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">CONTENIDO</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../intro.html">INTRODUCCIÓN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introducción</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">PERIODO 01</span></p>
 <ul>
@@ -76,7 +78,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#tarea-01-compuertas-logicas">TAREA 01: Compuertas lógicas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tarea-02-ejercicios-01">TAREA 02: Ejercicios 01</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tarea-03-ejercicios-02">TAREA 03: Ejercicios 02</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#tarea-04-evaluacion">TAREA 04: Evaluación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tarea-04-logic-ly">TAREA 04: logic.ly</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tarea-05-evaluacion">TAREA 05: Evaluación</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="R04.html">PLAN DE REFUERZO 04</a></li>
@@ -84,6 +87,9 @@
 <p class="caption" role="heading"><span class="caption-text">RECURSOS</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/T01.html">T01: Jerarquía de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T02.html">T02: Números binarios y circuitos lógicos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T03.html">T03: Álgebra de Boole</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T04.html">T04: Compuertas lógicas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/curriculum.html">Currículum</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/referencias.html">REFERENCIAS</a></li>
 </ul>
@@ -94,7 +100,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Lógica computacional grado 8</a>
+          <a href="../index.html">Lógica computacional 8</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -114,17 +120,104 @@
              
   <section class="tex2jax_ignore mathjax_ignore" id="a10-compuertas-logicas">
 <h1>A10: Compuertas lógicas<a class="headerlink" href="#a10-compuertas-logicas" title="Link to this heading"></a></h1>
+<p>En esta actividad, el estudiante aprende sobre compuertas lógicas. Desarrollar las siguientes tareas:</p>
+<div class="admonition-aviso admonition">
+<p class="admonition-title">AVISO</p>
+<p>Para resolver esta actividad, acceda a la teoría:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="../recursos/T04.html"><span class="std std-doc">COMPUERTAS LÓGICAS</span></a></p></li>
+</ul>
+</div>
+<hr class="docutils" />
 <section id="tarea-01-compuertas-logicas">
 <h2>TAREA 01: Compuertas lógicas<a class="headerlink" href="#tarea-01-compuertas-logicas" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p>En su cuaderno responda las siguientes preguntas:</p>
+<ul class="simple">
+<li><p>¿En las <strong>compuertas lógicas</strong> como se generan las señales de voltaje de salida?</p></li>
+<li><p>¿En que otros campos se puede aplicar la teoría de <strong>compuertas lógicas</strong>?</p></li>
+<li><p>¿Qué se obtiene cuando se modela el comportamiento de las entradas y salidas lógicas Booleanas?</p></li>
+</ul>
+</li>
+<li><p>Para cada <strong>compuerta lógica</strong> en su cuaderno realice su gráfica, tabla de la verdad y fórmula algebraica.</p></li>
+<li><p>Copie la siguiente tabla en su cuaderno y luego relacione con una línea cada definición con su compuerta lógica:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/image023.png"><img alt="../_images/image023.png" src="../_images/image023.png" style="width: 500px;" />
+</a>
+</figure>
+</li>
+</ol>
 </section>
+<hr class="docutils" />
 <section id="tarea-02-ejercicios-01">
 <h2>TAREA 02: Ejercicios 01<a class="headerlink" href="#tarea-02-ejercicios-01" title="Link to this heading"></a></h2>
+<p>Para las siguientes <em>ecuaciones booleanas</em>, obtenga su <strong>circuitos lógicos</strong> e identifique su <strong>tabla de la verdad</strong>:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(F=(A+B)+(\overline{C+D})\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F = \overline{(A*\overline{B}+\overline{A}*B)+\overline{C}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F = \overline{(A*\overline{B}+\overline{A}*B)*(C*\overline{D}+\overline{C}*D)}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F = \overline{((A*C)*(\overline{\overline{B}*C}))+((\overline{A*C})*(\overline{B}*C))}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(F = ((A+B)*(\overline{\overline{C}})+(\overline{A+B})*(\overline{C}))+(\overline{C*D})\)</span></p></li>
+</ol>
 </section>
+<hr class="docutils" />
 <section id="tarea-03-ejercicios-02">
 <h2>TAREA 03: Ejercicios 02<a class="headerlink" href="#tarea-03-ejercicios-02" title="Link to this heading"></a></h2>
+<p>Para los siguientes <em>circuitos lógicos</em>, obtenga su <strong>ecuación booleana</strong> e identifique su <strong>tabla de la verdad</strong>:</p>
+<ol class="arabic">
+<li><p>Circuito lógico 01:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/image033.png"><img alt="../_images/image033.png" src="../_images/image033.png" style="width: 400px;" />
+</a>
+</figure>
+</li>
+<li><p>Circuito lógico 02 (tenga en cuenta la compuerta NOT):</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/image041.png"><img alt="../_images/image041.png" src="../_images/image041.png" style="width: 400px;" />
+</a>
+</figure>
+</li>
+<li><p>Circuito lógico 03 (tenga en cuenta la compuerta XORG):</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/image051.png"><img alt="../_images/image051.png" src="../_images/image051.png" style="width: 400px;" />
+</a>
+</figure>
+</li>
+<li><p>Circuito lógico 04:</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/image06.png"><img alt="../_images/image06.png" src="../_images/image06.png" style="width: 500px;" />
+</a>
+</figure>
+</li>
+<li><p>Circuito lógico 05 (este ejercicio desarróllelo de forma horizontal en su cuaderno):</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/image07.png"><img alt="../_images/image07.png" src="../_images/image07.png" style="width: 500px;" />
+</a>
+</figure>
+</li>
+</ol>
 </section>
-<section id="tarea-04-evaluacion">
-<h2>TAREA 04: Evaluación<a class="headerlink" href="#tarea-04-evaluacion" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="tarea-04-logic-ly">
+<h2>TAREA 04: logic.ly<a class="headerlink" href="#tarea-04-logic-ly" title="Link to this heading"></a></h2>
+<p>Usando el aplicativo web: <a class="reference external" href="https://logic.ly/demo/"><strong>logic.ly</strong></a>, modele los cinco circuitos lógicos de la <strong>TAREA 03</strong>.</p>
+<p>Para acceder al aplicativo, PULSAR clic en la siguiente imagen:</p>
+<figure class="align-center">
+<a class="reference external image-reference" href="https://logic.ly/demo/"><img alt="../_images/image08.png" src="../_images/image08.png" style="width: 300px;" />
+</a>
+</figure>
+</section>
+<hr class="docutils" />
+<section id="tarea-05-evaluacion">
+<h2>TAREA 05: Evaluación<a class="headerlink" href="#tarea-05-evaluacion" title="Link to this heading"></a></h2>
+<div class="danger admonition">
+<p class="admonition-title">Presentación del cuaderno y sustentación</p>
+<p>En esta tarea, el estudiante es evaluado con los temas vistos en la presente actividad.</p>
+<ul class="simple">
+<li><p>Los estudiantes presentan el cuaderno con el desarrollo de todas las tareas.</p></li>
+<li><p>El docente realiza unas preguntas para comprobar que los estudiantes hayan entendido los temas.</p></li>
+</ul>
+</div>
 </section>
 </section>
 

@@ -54,21 +54,76 @@ periodo04/R04.md
 :caption: RECURSOS
 
 recursos/T01.md
+recursos/T02.md
+recursos/T03.md
+recursos/T04.md
 recursos/curriculum.md
 recursos/referencias.md
 :::
 
-# Lógica computacional grado octavo
+# C:\\> PORTAL WEB [SALA 115_](https://sala115.readthedocs.io)
 
-En este portal encuentra las guías y recursos académicos necesarios para aprender sobre las siguientes temáticas:
 
-- Hardware y Software
-- Sistemas computacionales e informática
-- Concepto de lógica computacional
-- Datos e información
-- Jerarquía de datos
-- Variables y sus tipos
-- Operaciones con variables
-- Números binarios y circuitos lógicos
-- Álgebra de Boole
-- Compuertas lógicas
+:::{figure} ./sala115.png
+
+*“Bienvenido al portal web de la Sala 115”*
+:::
+
+En este espacio usted puede acceder a los *recursos académicos* de los cursos que se dictan en la **Sala de informática 115** de la [Institución Educativa John F. Kennedy](https://www.jfkennedy.edu.co) en Puerto Boyacá, Boyacá.
+
+:::{list-table}
+:align: center
+:header-rows: 1
+
+* - CURSOS
+  - OCTAVO
+  - DÉCIMO
+  - ONCE
+* - Lógica computacional
+  - [{kbd}`Enter`](https://sala115.readthedocs.io)
+  - N/A
+  - N/A
+* - Informática
+  - N/A
+  - [{kbd}`Enter`](https://sala115.readthedocs.io)
+  - N/A
+* - Ofimática
+  - N/A
+  - [{kbd}`Enter`](https://sala115.readthedocs.io)
+  - [{kbd}`Enter`](https://sala115.readthedocs.io)
+* - Programación
+  - N/A
+  - [{kbd}`Enter`](https://sala115.readthedocs.io)
+  - [{kbd}`Enter`](https://sala115.readthedocs.io)
+
+:::
+
+---
+***¿Sin INTERNET en la sala...?***, acceda de forma local:
+
+:::{list-table}
+:align: center
+:header-rows: 1
+
+* - CURSOS
+  - OCTAVO
+  - DÉCIMO
+  - ONCE
+* - Lógica computacional
+  - [{guilabel}`Enter`](https://sala115.readthedocs.io)
+  - N/A
+  - N/A
+* - Informática
+  - N/A
+  - [{guilabel}`Enter`](https://sala115.readthedocs.io)
+  - N/A
+* - Ofimática
+  - N/A
+  - [{guilabel}`Enter`](https://sala115.readthedocs.io)
+  - [{guilabel}`Enter`](https://sala115.readthedocs.io)
+* - Programación
+  - N/A
+  - [{guilabel}`Enter`](https://sala115.readthedocs.io)
+  - [{guilabel}`Enter`](https://sala115.readthedocs.io)
+
+:::

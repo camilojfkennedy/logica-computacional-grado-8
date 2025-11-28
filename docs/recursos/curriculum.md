@@ -24,40 +24,40 @@
 
 ## Periodo 02
 
-:TEMÁTICA: 
-:OBJETIVO: 
-:DESEMPEÑO:
+:TEMÁTICA: Datos Vs información
+:OBJETIVO: Comprender la diferencia entre datos e información e identificar los elementos de la jerarquía de datos
+:DESEMPEÑO: Comprende el concepto de información y su diferencia con la jerarquía de datos
 
 ### Orientaciones curriculares
 
-- **Componente**:
-- **Compotencia**: 
-- **Evidencia de aprendizaje**: 
+- **Componente**: Naturaleza y Evolución de la T&I
+- **Compotencia**: Relaciono saberes, conocimientos tecnológicos e informáticos con los conocimientos de otras disciplinas.
+- **Evidencia de aprendizaje**: Comprendo los principios y conocimientos tecnológicos e informáticos que hacen posible el funcionamiento de productos tecnológicos actuales.
 
 ---
 
 ## Periodo 03
 
-:TEMÁTICA: 
-:OBJETIVO: 
-:DESEMPEÑO:
+:TEMÁTICA: Variables, tipos de variables y tabla ASCII
+:OBJETIVO: Conocer y entender los tipos de variables y como los caracteres se pueden identificar en la tabla ASCII
+:DESEMPEÑO: Identifica las variables de tipo numérico, booleano y carácter los cuales codifica y decodifica con la tabla ASCII
 
 ### Orientaciones curriculares
 
-- **Componente**:
-- **Compotencia**: 
-- **Evidencia de aprendizaje**: 
+- **Componente**: Naturaleza y evolución de la T&I.
+- **Compotencia**: Relaciono saberes, conocimientos tecnológicos e informáticos con los conocimientos de otras disciplinas.
+- **Evidencia de aprendizaje**: Comprendo los principios y conocimientos tecnológicos e informáticos que hacen posible el funcionamiento de productos tecnológicos actuales.
 
 ---
 
 ## Periodo 04
 
-:TEMÁTICA: 
-:OBJETIVO: 
-:DESEMPEÑO:
+:TEMÁTICA: Álgebra de Boole y Compuerta lógicas
+:OBJETIVO: Conocer el álgebra de Boole, sus teoremas y funciones lógicas
+:DESEMPEÑO: Conoce el álgebra de Boole, sus teoremas, funciones lógicas e identifica el tipo de variable: Booleana
 
 ### Orientaciones curriculares
 
-- **Componente**:
-- **Compotencia**: 
-- **Evidencia de aprendizaje**: 
+- **Componente**: Naturaleza y Evolución de la T&I
+- **Compotencia**: Relaciono saberes, conocimientos tecnológicos e informáticos con los conocimientos de otras disciplinas.
+- **Evidencia de aprendizaje**: Comprendo los principios y conocimientos tecnológicos e informáticos que hacen posible el funcionamiento de productos tecnológicos actuales.

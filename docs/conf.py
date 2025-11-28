@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Lógica computacional grado 8'
+project = 'Lógica computacional 8'
 copyright = '2026, Julian Camilo Fonseca Romero, IE John F. Kennedy'
 author = 'Julian Camilo Fonseca Romero'
 
@@ -27,7 +27,7 @@ myst_enable_extensions = [
 ]
 
 myst_number_code_blocks = ["python", "c++"] # Numera bloques de código en los lenguajes especificados
-myst_links_external_new_tab = True # Abre enlaces externos en una nueva pestaña
+myst_links_external_new_tab = False # Abre enlaces externos en una nueva pestaña
 myst_enable_checkboxes = True # Habilita casillas de verificación en las listas de tareas
 myst_heading_anchors = 3 # Genera enlaces ancla para los encabezados (niveles 1 a 3)
 

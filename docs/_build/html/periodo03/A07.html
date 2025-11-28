@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>A07: Operaciones &mdash; documentación de Lógica computacional grado 8 - </title>
+  <title>A07: Operaciones &mdash; documentación de Lógica computacional 8 - </title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -19,6 +19,8 @@
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../_static/translations.js?v=f85f4cfb"></script>
       <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
@@ -35,7 +37,7 @@
           
           
           <a href="../index.html" class="icon icon-home">
-            Lógica computacional grado 8
+            Lógica computacional 8
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -47,7 +49,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">CONTENIDO</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../intro.html">INTRODUCCIÓN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introducción</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">PERIODO 01</span></p>
 <ul>
@@ -67,8 +69,10 @@
 <li class="toctree-l1"><a class="reference internal" href="A06.html">A06: Variables y sus tipos</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">A07: Operaciones</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#tarea-01-operaciones-numericas">TAREA 01: Operaciones numéricas</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#tarea-02-codificacion-y-decodificacion">TAREA 02: Codificación y decodificación</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#tarea-03-evaluacion">TAREA 03: Evaluación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tarea-02-ejemplo-de-operaciones-con-variables-numericas">TAREA 02: Ejemplo de operaciones con variables numéricas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tarea-03-codificacion-y-decodificacion">TAREA 03: Codificación y decodificación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tarea-04-ejemplo-codificacion-decodificacion">TAREA 04: Ejemplo codificación-decodificación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tarea-05-evaluacion">TAREA 05: Evaluación</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="R03.html">PLAN DE REFUERZO 03</a></li>
@@ -83,6 +87,9 @@
 <p class="caption" role="heading"><span class="caption-text">RECURSOS</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/T01.html">T01: Jerarquía de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T02.html">T02: Números binarios y circuitos lógicos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T03.html">T03: Álgebra de Boole</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../recursos/T04.html">T04: Compuertas lógicas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/curriculum.html">Currículum</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../recursos/referencias.html">REFERENCIAS</a></li>
 </ul>
@@ -93,7 +100,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../index.html">Lógica computacional grado 8</a>
+          <a href="../index.html">Lógica computacional 8</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -113,14 +120,377 @@
              
   <section class="tex2jax_ignore mathjax_ignore" id="a07-operaciones">
 <h1>A07: Operaciones<a class="headerlink" href="#a07-operaciones" title="Link to this heading"></a></h1>
+<p>En esta actividad, el estudiante aprende a realizar operaciones usando variables de <strong>tipo numérico</strong> y de <strong>tipo carácter</strong>. Desarrolle las siguientes tareas:</p>
+<hr class="docutils" />
 <section id="tarea-01-operaciones-numericas">
 <h2>TAREA 01: Operaciones numéricas<a class="headerlink" href="#tarea-01-operaciones-numericas" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Lea el siguiente texto:</p></li>
+</ol>
+<div class="tip admonition">
+<p class="admonition-title">¿Cómo se realizan operaciones con variables numéricas?</p>
+<p>Las operaciones con <strong>variables numéricas</strong> permiten entender el <em>ciclo de vida de las variables</em>, en especial las variables dinámicas (cuyo valor cambia constantemente).</p>
+<p>Para operar se empieza declarando unas <strong>variables</strong> con unos <em>valores iniciales</em> los cuales <em>van cambiando a medida que se realicen operaciones previamente definidas</em>. Al ser <strong>variables numéricas</strong> estas pueden ser de tipo <em>entero</em> o <em>decimal</em>.</p>
+<p>Después de resolver todas la operaciones, al final se obtienen los valores finales de las variables.</p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Acorde al texto: <strong>¿Cómo se realizan operaciones con variables numéricas?</strong>, en su cuaderno responda las siguientes preguntas:</p>
+<ul class="simple">
+<li><p>¿Para que sirve realizar operaciones con variables dinámicas?</p></li>
+<li><p>Si el valor de las variables dinámicas cambia constantemente, entonces ¿Qué son las variables estáticas?</p></li>
+<li><p>¿Cuál es el paso a paso para operar variables?</p></li>
+</ul>
+</li>
+</ol>
 </section>
-<section id="tarea-02-codificacion-y-decodificacion">
-<h2>TAREA 02: Codificación y decodificación<a class="headerlink" href="#tarea-02-codificacion-y-decodificacion" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="tarea-02-ejemplo-de-operaciones-con-variables-numericas">
+<h2>TAREA 02: Ejemplo de operaciones con variables numéricas<a class="headerlink" href="#tarea-02-ejemplo-de-operaciones-con-variables-numericas" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>En su cuaderno escriba el siguiente ejemplo:</p></li>
+</ol>
+<div class="tip admonition">
+<p class="admonition-title">EJEMPLO: Operaciones con variables numéricas</p>
+<p>Para las siguientes variables iniciales:</p>
+<p><span class="math notranslate nohighlight">\(a=10\)</span>, <span class="math notranslate nohighlight">\(b=15\)</span> y <span class="math notranslate nohighlight">\(c=20\)</span></p>
+<p>Desarrollar las siguientes operaciones para hallar: <span class="math notranslate nohighlight">\(af=?\)</span>, <span class="math notranslate nohighlight">\(bf=?\)</span> y <span class="math notranslate nohighlight">\(cf=?\)</span></p>
+<div class="math notranslate nohighlight">
+\[a = a + b\]</div>
+<div class="math notranslate nohighlight">
+\[b = b + 8\]</div>
+<div class="math notranslate nohighlight">
+\[c = a + b\]</div>
+<p><strong>SOLUCIÓN:</strong></p>
+<p>Teniendo en cuenta que <span class="math notranslate nohighlight">\(a = 10\)</span>, <span class="math notranslate nohighlight">\(b = 15\)</span> y <span class="math notranslate nohighlight">\(c = 20\)</span> entonces:</p>
+<div class="math notranslate nohighlight">
+\[a = a + b\]</div>
+<div class="math notranslate nohighlight">
+\[a = 10 + 15\]</div>
+<div class="math notranslate nohighlight">
+\[a = 25\]</div>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[b = b + 8\]</div>
+<div class="math notranslate nohighlight">
+\[b = 15 + 8\]</div>
+<div class="math notranslate nohighlight">
+\[b = 23\]</div>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[c = a + b\]</div>
+<div class="math notranslate nohighlight">
+\[c = 25 + 23\]</div>
+<div class="math notranslate nohighlight">
+\[c = 48\]</div>
+<p>Por tanto, <span class="math notranslate nohighlight">\(af = 25\)</span>, <span class="math notranslate nohighlight">\(bf = 23\)</span> y <span class="math notranslate nohighlight">\(cf = 48\)</span></p>
+</div>
+<ol class="arabic" start="2">
+<li><p>Resolver las siguientes operaciones en su cuaderno:</p>
+<ul>
+<li><p>Para las siguientes variables iniciales:</p>
+<p><span class="math notranslate nohighlight">\(a = 22\)</span>, <span class="math notranslate nohighlight">\(b = 53\)</span>, <span class="math notranslate nohighlight">\(c = -75\)</span>, <span class="math notranslate nohighlight">\(d = 56\)</span></p>
+<p>Desarrollar las siguientes operaciones para hallar <span class="math notranslate nohighlight">\(af = ?\)</span>, <span class="math notranslate nohighlight">\(bf = ?\)</span>, <span class="math notranslate nohighlight">\(cf = ?\)</span> y <span class="math notranslate nohighlight">\(df = ?\)</span></p>
+<div class="math notranslate nohighlight">
+\[a = b + c + d\]</div>
+<div class="math notranslate nohighlight">
+\[b = a + c - d\]</div>
+<div class="math notranslate nohighlight">
+\[c = a - b + d\]</div>
+<div class="math notranslate nohighlight">
+\[d = a - b - c\]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p>Para las siguientes variables iniciales:</p>
+<p><span class="math notranslate nohighlight">\(a = 5009\)</span>, <span class="math notranslate nohighlight">\(b = 18009\)</span>, <span class="math notranslate nohighlight">\(c = 15009\)</span>, <span class="math notranslate nohighlight">\(d = 25009\)</span></p>
+<p>Desarrollar las siguientes operaciones para hallar <span class="math notranslate nohighlight">\(af = ?\)</span>, <span class="math notranslate nohighlight">\(bf = ?\)</span>, <span class="math notranslate nohighlight">\(cf = ?\)</span> y <span class="math notranslate nohighlight">\(df=?\)</span></p>
+<div class="math notranslate nohighlight">
+\[a = a - 1009\]</div>
+<div class="math notranslate nohighlight">
+\[b = b + 5001 – c\]</div>
+<div class="math notranslate nohighlight">
+\[c = c + 4001 + b\]</div>
+<div class="math notranslate nohighlight">
+\[d = a + b + c\]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p>Para las siguientes variables iniciales:</p>
+<p><span class="math notranslate nohighlight">\(a = 2\)</span>, <span class="math notranslate nohighlight">\(b = 4\)</span></p>
+<p>Desarrollar las siguientes operaciones para hallar <span class="math notranslate nohighlight">\(af = ?\)</span> y <span class="math notranslate nohighlight">\(bf = ?\)</span></p>
+<div class="math notranslate nohighlight">
+\[a = a + 3\]</div>
+<div class="math notranslate nohighlight">
+\[b = b + 6\]</div>
+<div class="math notranslate nohighlight">
+\[a = a + 9\]</div>
+<div class="math notranslate nohighlight">
+\[b = b – 12\]</div>
+<div class="math notranslate nohighlight">
+\[a = a – 15\]</div>
+<div class="math notranslate nohighlight">
+\[b = b + 18\]</div>
+<div class="math notranslate nohighlight">
+\[a = a + 21\]</div>
+<div class="math notranslate nohighlight">
+\[b = b + 24\]</div>
+<div class="math notranslate nohighlight">
+\[a = a + 27\]</div>
+<div class="math notranslate nohighlight">
+\[b = b – 30\]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p>Para las siguientes variables iniciales:</p>
+<p><span class="math notranslate nohighlight">\(a = 18\)</span>, <span class="math notranslate nohighlight">\(b = 18\)</span>, <span class="math notranslate nohighlight">\(c = 18\)</span>, <span class="math notranslate nohighlight">\(d = 18\)</span></p>
+<p>Desarrollar las siguientes operaciones para hallar <span class="math notranslate nohighlight">\(af = ?\)</span>, <span class="math notranslate nohighlight">\(bf = ?\)</span>, <span class="math notranslate nohighlight">\(cf = ?\)</span> y <span class="math notranslate nohighlight">\(df = ?\)</span></p>
+<div class="math notranslate nohighlight">
+\[a = a + b\]</div>
+<div class="math notranslate nohighlight">
+\[b = a - b\]</div>
+<div class="math notranslate nohighlight">
+\[c = a + b\]</div>
+<div class="math notranslate nohighlight">
+\[d = a - b\]</div>
+<div class="math notranslate nohighlight">
+\[a = a - b\]</div>
+<div class="math notranslate nohighlight">
+\[b = a + b\]</div>
+<div class="math notranslate nohighlight">
+\[c = a - b\]</div>
+<div class="math notranslate nohighlight">
+\[d = a + b\]</div>
+</li>
+</ul>
+<hr class="docutils" />
+<ul>
+<li><p>Para las siguientes variables iniciales:</p>
+<p><span class="math notranslate nohighlight">\(a = 1\)</span>, <span class="math notranslate nohighlight">\(b = 2\)</span>, <span class="math notranslate nohighlight">\(c = 4\)</span>, <span class="math notranslate nohighlight">\(d = 8\)</span></p>
+<p>Desarrollar las siguientes operaciones para hallar <span class="math notranslate nohighlight">\(af = ?\)</span>, <span class="math notranslate nohighlight">\(bf = ?\)</span>, <span class="math notranslate nohighlight">\(cf = ?\)</span> y <span class="math notranslate nohighlight">\(df = ?\)</span></p>
+<div class="math notranslate nohighlight">
+\[a = a + b + c + d\]</div>
+<div class="math notranslate nohighlight">
+\[b = a + b + c - d\]</div>
+<div class="math notranslate nohighlight">
+\[c = a + b - c + d\]</div>
+<div class="math notranslate nohighlight">
+\[d = a + b - c - d\]</div>
+<div class="math notranslate nohighlight">
+\[a = a - b + c + d\]</div>
+<div class="math notranslate nohighlight">
+\[b = a - b + c - d\]</div>
+<div class="math notranslate nohighlight">
+\[c = a - b - c + d\]</div>
+<div class="math notranslate nohighlight">
+\[d = a - b - c - d\]</div>
+</li>
+</ul>
+</li>
+</ol>
 </section>
-<section id="tarea-03-evaluacion">
-<h2>TAREA 03: Evaluación<a class="headerlink" href="#tarea-03-evaluacion" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<section id="tarea-03-codificacion-y-decodificacion">
+<h2>TAREA 03: Codificación y decodificación<a class="headerlink" href="#tarea-03-codificacion-y-decodificacion" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Lea el siguiente texto:</p></li>
+</ol>
+<div class="tip admonition">
+<p class="admonition-title">¿Qué es codificar y decodificar?</p>
+<p><strong>Codificar</strong> es el proceso de transformar <strong>información</strong> de un formato a otro, generalmente para protegerla, comprimirla o prepararla para la transmisión. Imagine que es como escribir un mensaje secreto que solo alguien con la clave correcta puede entender.</p>
+<p><strong>Decodificar</strong> es el proceso inverso. Es la acción de tomar la información codificada y convertirla de vuelta a su formato original, haciéndola legible y utilizable. Es como usar la clave para descifrar el mensaje secreto y entender lo que dice.</p>
+<p>Las <strong>variables</strong> de <em>tipo carácter</em> se pueden operar por medio de la codificación y decodificación. Para codificar o decodificar, se usa la <strong>tabla ASCII</strong> la cual contiene equivalencias numéricas con los caracteres.</p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Acorde al texto: <strong>¿Qué es codificar y decodificar?</strong>, responda las siguientes preguntas en su cuaderno:</p>
+<ul class="simple">
+<li><p>¿Cuál es la diferencia entre <strong>codificar</strong> y <strong>decodificar</strong>?</p></li>
+<li><p>¿Por qué se usan variables de tipo carácter al momento de codificar o decodificar?</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="tarea-04-ejemplo-codificacion-decodificacion">
+<h2>TAREA 04: Ejemplo codificación-decodificación<a class="headerlink" href="#tarea-04-ejemplo-codificacion-decodificacion" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Escriba el siguiente ejemplo en su cuaderno:</p></li>
+</ol>
+<div class="tip admonition">
+<p class="admonition-title">Ejemplo de codificación usando caracteres ASCII</p>
+<p>Codifique el siguiente mensaje usando caracteres ASCII:</p>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">Este</span> <span class="pre">es</span> <span class="pre">un</span> <span class="pre">ejemplo</span> <span class="pre">de</span> <span class="pre">codificacion</span> <span class="pre">en</span> <span class="pre">ascii</span> <span class="pre">01</span></code></p>
+</div></blockquote>
+<p>Se revisa la tabla ASCII y por cada carácter se agrega un equivalente decimal:</p>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">E</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">s</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">t</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">e</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">e</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">s</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">u</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">n</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+</tr>
+<tr class="row-even"><td><p>69</p></td>
+<td><p>115</p></td>
+<td><p>116</p></td>
+<td><p>101</p></td>
+<td><p><strong>32</strong></p></td>
+<td><p>101</p></td>
+<td><p>115</p></td>
+<td><p><strong>32</strong></p></td>
+<td><p>117</p></td>
+<td><p>110</p></td>
+<td><p><strong>32</strong></p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">E</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">j</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">e</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">m</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">p</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">l</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">o</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">d</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">e</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+</tr>
+<tr class="row-even"><td><p>69</p></td>
+<td><p>106</p></td>
+<td><p>101</p></td>
+<td><p>109</p></td>
+<td><p>112</p></td>
+<td><p>108</p></td>
+<td><p>111</p></td>
+<td><p><strong>32</strong></p></td>
+<td><p>100</p></td>
+<td><p>101</p></td>
+<td><p><strong>32</strong></p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">c</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">o</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">d</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">i</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">f</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">i</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">c</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">a</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">c</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">i</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">o</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">n</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>99</p></td>
+<td><p>111</p></td>
+<td><p>100</p></td>
+<td><p>105</p></td>
+<td><p>102</p></td>
+<td><p>105</p></td>
+<td><p>99</p></td>
+<td><p>97</p></td>
+<td><p>99</p></td>
+<td><p>105</p></td>
+<td><p>162</p></td>
+<td><p>110</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-center">
+<tbody>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"> </code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">e</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">n</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">a</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">s</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">c</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">i</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">i</span></code></p></td>
+<td><p><code class="docutils literal notranslate"> </code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>32</strong></p></td>
+<td><p>101</p></td>
+<td><p>110</p></td>
+<td><p><strong>32</strong></p></td>
+<td><p>97</p></td>
+<td><p>115</p></td>
+<td><p>99</p></td>
+<td><p>105</p></td>
+<td><p>105</p></td>
+<td><p><strong>32</strong></p></td>
+<td><p>48</p></td>
+<td><p>49</p></td>
+</tr>
+</tbody>
+</table>
+<p>De esta manera, el mesaje codificado es:</p>
+<p>69 115 116 101 <strong>32</strong> 101 115 <strong>32</strong> 117 110 <strong>32</strong> 69 106 101 109 112 108 111 <strong>32</strong> 100 101 <strong>32</strong> 99 111 100 105 102 105 99 97 99 105 162 110 <strong>32</strong> 101 110 <strong>32</strong> 97 115 99 105 105 <strong>32</strong> 48 49</p>
+</div>
+<ol class="arabic" start="2">
+<li><p>Acorde al texto: <strong>Ejemplo de codificación usando caracteres ASCII</strong>, codifique los siguientes mensajes en su cuaderno:</p>
+<ul class="simple">
+<li><p><em>“La lógica computacional estudia los principios de la algoritmia para dar solución a problemas de diferente tipo”</em></p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><em>“La lógica es la forma más obvia y fácil de hacer algo”</em></p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p><em>“La tecnología es el conjunto de teorías y técnicas que permiten la aplicación práctica del conocimiento científico, para transformar el medio ambiente y mejorar la calidad de vida de las personas”</em></p></li>
+</ul>
+</li>
+<li><p>Escriba el siguiente texto en su cuaderno:</p></li>
+</ol>
+<div class="tip admonition">
+<p class="admonition-title">Decodificando usando tabla ASCII</p>
+<p>El proceso de decodificación en <strong>ASCII</strong> es el mismo <em>proceso de codificación</em> solo que en vez de reemplazar caracteres a números, esta vez se reemplaza números a caracteres.</p>
+</div>
+<ol class="arabic" start="4">
+<li><p>Acorde al texto: <strong>Decodificando usando tabla ASCII</strong>, en su cuaderno decodificar los siguientes mensajes:</p>
+<ul class="simple">
+<li><p>69 108 <strong>32</strong> 108 101 110 103 117 97 106 101 <strong>32</strong> 97 114 116 105 102 105 99 105 97 108 <strong>32</strong> 101 115 <strong>32</strong> 116 111 100 111 <strong>32</strong> 97 113 117 101 108 <strong>32</strong> 99 114 101 97 100 111 <strong>32</strong> 100 101 <strong>32</strong> 109 97 110 101 114 97 <strong>32</strong> 99 111 110 115 99 105 101 110 116 101 <strong>32</strong> 121 <strong>32</strong> 100 101 108 105 98 101 114 97 100 97 44 <strong>32</strong> 99 111 110 <strong>32</strong> 117 110 <strong>32</strong> 102 105 110 <strong>32</strong> 101 115 112 101 99 195 173 102 105 99 111 46 <strong>32</strong> 83 101 <strong>32</strong> 100 105 118 105 100 101 110 <strong>32</strong> 101 110 <strong>32</strong> 100 111 115 58 <strong>32</strong> 76 101 110 103 117 97 106 101 115 <strong>32</strong> 99 111 110 115 116 114 117 105 100</p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p>76 97 <strong>32</strong> 106 101 114 97 114 113 117 195 173 97 <strong>32</strong> 100 101 <strong>32</strong> 100 97 116 111 115 <strong>32</strong> 115 101 <strong>32</strong> 99 111 109 112 111 110 101 <strong>32</strong> 100 101 58 <strong>32</strong> 100 64 116 48 115 44 <strong>32</strong> 99 97 77 112 48 115 44 <strong>32</strong> 114 42 103 105 53 116 114 111 53 44 <strong>32</strong> 97 114 67 104 73 118 56 115 <strong>32</strong> 121 <strong>32</strong> 98 65 115 51 115 <strong>32</strong> 100 101 <strong>32</strong> 100 64 116 48 122 122 122 46</p></li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li><p>69 115 116 97 <strong>32</strong> 101 115 <strong>32</strong> 108 97 <strong>32</strong> 109 97 116 101 114 105 97 <strong>32</strong> 76 195 179 103 105 99 97 <strong>32</strong> 67 111 109 112 117 116 97 99 105 111 110 97 108 <strong>32</strong> 100 101 <strong>32</strong> 108 97 <strong>32</strong> 73 110 115 116 105 116 117 99 105 195 179 110 <strong>32</strong> 69 100 117 99 97 116 105 118 97 <strong>32</strong> 74 111 104 110 <strong>32</strong> 70 46 <strong>32</strong> 75 101 110 110 101 100 121 46 <strong>32</strong> 69 115 116 97 109 111 115 <strong>32</strong> 116 114 97 98 97 106 97 110 100 111 <strong>32</strong> 99 111 110 <strong>32</strong> 108 111 115 <strong>32</strong> 99 195 179 100 105 103 111 115 <strong>32</strong> 65 83 67 73 73</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="tarea-05-evaluacion">
+<h2>TAREA 05: Evaluación<a class="headerlink" href="#tarea-05-evaluacion" title="Link to this heading"></a></h2>
+<div class="danger admonition">
+<p class="admonition-title">Presentación del cuaderno y sustentación</p>
+<p>En esta tarea, el estudiante es evaluado con los temas vistos en la presente actividad.</p>
+<ul class="simple">
+<li><p>Los estudiantes presentan el cuaderno con el desarrollo de todas las tareas.</p></li>
+<li><p>El docente realiza unas preguntas para comprobar que los estudiantes hayan entendido los temas.</p></li>
+</ul>
+</div>
 </section>
 </section>
 
