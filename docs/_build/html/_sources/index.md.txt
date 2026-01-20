@@ -63,19 +63,11 @@ recursos/referencias.md
 
 # C:\\> PORTAL WEB [SALA 115_](https://sala115.readthedocs.io)
 
-## 2027
-
-### Diciembre
-
-Se finaliza el año escolar. REGISTRO DE EVENTOS Próximos
-
-### MARZO
-
-Se logra el encuentro
+## 2028
 
 ### ENERO
 
-Se prepara el POA
+Se prepara el POA del año 2028
 
 
 
