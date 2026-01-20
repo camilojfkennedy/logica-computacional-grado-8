@@ -65,6 +65,10 @@ recursos/referencias.md
 
 ## 2027
 
+### Diciembre
+
+Se finaliza el año escolar. REGISTRO DE EVENTOS Próximos
+
 ### MARZO
 
 Se logra el encuentro
