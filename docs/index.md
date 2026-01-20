@@ -65,6 +65,10 @@ recursos/referencias.md
 
 ## 2027
 
+### MARZO
+
+Se logra el encuentro
+
 ### ENERO
 
 Se prepara el POA
